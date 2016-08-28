@@ -1,0 +1,45 @@
+
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  .btn-sort {
+    margin: 5px;
+  }
+}
+
+.btn-all {
+  
+}
+
+.cat-wrapper {
+  text-align: center;
+  h3 {
+    font-family: 'Muli', sans-serif;
+  }
+  .cat-num {
+    font-size: 2em;
+  }
+}
+
+.widget-main {
+  font-family: 'Muli', sans-serif;
+  padding-top: 0;
+  border-top: 10px solid #28757F;
+  box-shadow: 0 5px 15px 3px rgba(0,0,0,0.2);
+  .widget-header {
+    font-family: 'Muli', sans-serif;
+    padding-left: 20px;
+    box-shadow: 0 5px 6px 3px rgba(0,0,0,0.1);
+    color: #fefefe;
+    background-color: #205e66;
+    // border-top: 4px solid #205e66;
+    // border-bottom: 4px solid #205e66;
+  }
+  .widget-date {
+    font-family: 'Muli', sans-serif;
+    // text-decoration:  overline;
+    border-top: 4px solid #205e66;
+    font-weight: bold;
+  }
+}

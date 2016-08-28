@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Test Opportunity",
+        "expected_close": "9/22/2016"
+    },
+    {
+        "id": 2,
+        "name": "Atlatl Opportunity",
+        "expected_close": "9/17/2016"
+    },
+    {
+        "id": 3,
+        "name": "PriceBooks Opportunity",
+        "expected_close": "9/19/2016"
+    }
+]

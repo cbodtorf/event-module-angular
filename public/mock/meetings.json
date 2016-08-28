@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Test Meeting",
+        "start_date": "9/24/2016"
+    },
+    {
+        "id": 2,
+        "name": "Atlatl Meeting",
+        "start_date": "9/15/2016"
+    },
+    {
+        "id": 3,
+        "name": "PriceBooks Meeting",
+        "start_date": "9/19/2016"
+    }
+]

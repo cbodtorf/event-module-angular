@@ -1,0 +1,42 @@
+
+
+<section class="callout large-12 columns widget-main">
+  
+    <h3 class="widget-header primary row">Upcoming Events</h3>
+    <h5 class="widget-date" ng-model="currentDate">{{currentDate.toDateString()}}</h5>
+    <!-- widget buttons -->
+    <div class="row btn-wrapper">
+      <button ng-click="sort(1)" class="button large-2 medium-2 columns btn-sort" type="button" name="today">today</button>
+      <button ng-click="sort(7)" class="button large-2 medium-2 columns btn-sort" type="button" name="week">7 day</button>
+      <button ng-click="sort(30)" class="button large-2 medium-2 columns btn-sort" type="button" name="month">30 day</button>
+      <button ng-click="sortAll()" class="button large-2 medium-2 columns btn-sort" type="button" name="all">All</button>
+    </div>
+    <!-- widget display -->
+    <div class="row cat-wrapper">
+
+            <div class="large-3 medium-3 columns">
+                <span class="cat-num" ng-model="meetingDates" ><b>{{meetingDates.length}}</b> </span>
+                <h4 >Meetings</h4>
+
+            </div>
+            <div class="large-3 medium-3 columns">
+                <span class="cat-num" ng-model="opportunityDates" ><b>{{opportunityDates.length}}</b> </span>
+                <h4 >Opportunities</h4>
+
+            </div>
+
+            <div class="large-3 medium-3 columns">
+                <span class="cat-num" ng-model="quoteDates" ><b>{{quoteDates.length}}</b> </span>
+                <h4 >Quotes</h4>
+
+            </div>
+
+            <div class="large-3 medium-3 columns">
+                <span class="cat-num" ng-model="taskDates" ><b>{{taskDates.length}}</b></span>
+                <h4 >Tasks</h4>
+
+            </div>
+
+    </div>
+
+</section>
