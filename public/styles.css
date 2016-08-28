@@ -2,7 +2,10 @@
   display: flex;
   justify-content: center; }
   .btn-wrapper .btn-sort {
-    margin: 5px; }
+    margin: 5px;
+    transition: 1s ease-in-out; }
+    .btn-wrapper .btn-sort:focus {
+      background-color: #304e66; }
 
 .cat-wrapper {
   text-align: center; }

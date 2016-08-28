@@ -5,11 +5,15 @@
   justify-content: center;
   .btn-sort {
     margin: 5px;
+    transition: 1s ease-in-out;
+    &:focus {
+      background-color: #304e66;
+    }
   }
 }
 
 .btn-all {
-  
+
 }
 
 .cat-wrapper {
